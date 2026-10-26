@@ -1966,8 +1966,9 @@
 }
 @media (max-width: 700px) {
   .mobile-background {
-    background-position: center top;
-    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
   }
 }
 @property --tw-rotate-x {
