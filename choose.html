@@ -1,0 +1,394 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Choose a topic to learn Kannada or take a quiz."
+    />
+    <title>Choose Your Path | Kannada for Everyone</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body
+    class="min-h-screen bg-[#f8f6ef] bg-[url('assest/choose.png')] bg-cover bg-center bg-no-repeat"
+  >
+    <main class="mx-auto w-full max-w-[1020px] px-4 py-8 sm:px-6 sm:py-16">
+      <header class="mb-8 text-center sm:mb-12">
+        <p
+          class="mb-2 text-[0.7rem] font-extrabold tracking-[0.2em] text-[#789184]"
+        >
+          KANNADA FOR EVERYONE
+        </p>
+        <h1
+          class="m-0 text-3xl font-extrabold leading-tight tracking-[-0.055em] text-[#1762a0] sm:text-5xl md:text-6xl"
+        >
+          Choose Your Path
+        </h1>
+        <p class="mt-3 text-base text-[#687883] sm:text-lg">
+          Select an option to get started.
+        </p>
+      </header>
+
+      <section
+        class="grid grid-cols-1 items-stretch gap-4 sm:gap-6 lg:grid-cols-2"
+        aria-label="Choose how to learn"
+      >
+        <article
+          class="flex min-w-0 flex-col rounded-3xl border border-[#5a52420f] bg-white/85 p-6 shadow-[0_15px_42px_rgba(77,80,67,0.09),0_2px_8px_rgba(77,80,67,0.04)] sm:p-8"
+        >
+          <header class="flex items-center gap-4">
+            <span
+              class="grid size-[50px] shrink-0 place-items-center rounded-2xl bg-[#eaf4e9] text-[#548663]"
+              aria-hidden="true"
+            >
+              <svg viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M6 8.5c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2v16c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2v-16Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M11 12h10M11 17h10M11 22h6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <div>
+              <h2
+                class="m-0 text-xl font-bold tracking-[-0.025em] text-[#24445a]"
+              >
+                Choose Topic
+              </h2>
+              <p class="mt-1 text-sm text-[#7a8588]">Learn by Situations</p>
+            </div>
+          </header>
+
+          <div class="my-6 grid gap-2.5" id="topics">
+            <button
+              type="button"
+              class="flex min-h-12 items-center gap-3 rounded-xl border border-[#f0ede6] bg-[#fdfbf7] px-3.5 text-left text-[0.91rem] font-semibold text-[#415763] transition hover:translate-x-1 hover:border-[#c9ddca] hover:bg-[#f6faf4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1762a0]"
+              value="greeting&intro"
+            >
+              <span
+                class="size-[9px] shrink-0 rounded-full bg-[#e88770]"
+                aria-hidden="true"
+              ></span>
+              <span>Greetings</span>
+              <span
+                class="ml-auto text-2xl font-normal leading-none text-[#9aa8a2]"
+                aria-hidden="true"
+                >›</span
+              >
+            </button>
+            <button
+              type="button"
+              class="flex min-h-12 items-center gap-3 rounded-xl border border-[#f0ede6] bg-[#fdfbf7] px-3.5 text-left text-[0.91rem] font-semibold text-[#415763] transition hover:translate-x-1 hover:border-[#c9ddca] hover:bg-[#f6faf4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1762a0]"
+              value="shopping&food"
+            >
+              <span
+                class="size-[9px] shrink-0 rounded-full bg-[#eab456]"
+                aria-hidden="true"
+              ></span>
+              <span>Shopping &amp; Food</span>
+              <span
+                class="ml-auto text-2xl font-normal leading-none text-[#9aa8a2]"
+                aria-hidden="true"
+                >›</span
+              >
+            </button>
+            <button
+              type="button"
+              class="flex min-h-12 items-center gap-3 rounded-xl border border-[#f0ede6] bg-[#fdfbf7] px-3.5 text-left text-[0.91rem] font-semibold text-[#415763] transition hover:translate-x-1 hover:border-[#c9ddca] hover:bg-[#f6faf4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1762a0]"
+              value="travel&direction"
+            >
+              <span
+                class="size-[9px] shrink-0 rounded-full bg-[#62a39a]"
+                aria-hidden="true"
+              ></span>
+              <span>Travel &amp; Directions</span>
+              <span
+                class="ml-auto text-2xl font-normal leading-none text-[#9aa8a2]"
+                aria-hidden="true"
+                >›</span
+              >
+            </button>
+            <button
+              type="button"
+              class="flex min-h-12 items-center gap-3 rounded-xl border border-[#f0ede6] bg-[#fdfbf7] px-3.5 text-left text-[0.91rem] font-semibold text-[#415763] transition hover:translate-x-1 hover:border-[#c9ddca] hover:bg-[#f6faf4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1762a0]"
+              value="workplace&college"
+            >
+              <span
+                class="size-[9px] shrink-0 rounded-full bg-[#9d8ac2]"
+                aria-hidden="true"
+              ></span>
+              <span>Workplace &amp; College</span>
+              <span
+                class="ml-auto text-2xl font-normal leading-none text-[#9aa8a2]"
+                aria-hidden="true"
+                >›</span
+              >
+            </button>
+          </div>
+
+          
+        </article>
+
+        <article
+          class="flex min-w-0 flex-col rounded-3xl border border-[#5a52420f] bg-white/85 p-6 shadow-[0_15px_42px_rgba(77,80,67,0.09),0_2px_8px_rgba(77,80,67,0.04)] sm:p-8"
+        >
+          <header class="flex items-center gap-4">
+            <span
+              class="grid size-[50px] shrink-0 place-items-center rounded-2xl bg-[#fff0de] text-[#db8a39]"
+              aria-hidden="true"
+            >
+              <svg viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M11 7h10M12 5h8v4h-8z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 7H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="m10 15 1.5 1.5L14 14m2 1h5m-11 6 1.5 1.5L14 20m2 1h5"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <div>
+              <h2
+                class="m-0 text-xl font-bold tracking-[-0.025em] text-[#24445a]"
+              >
+                Take Quiz
+              </h2>
+              <p class="mt-1 text-sm text-[#7a8588]">Test Your Knowledge</p>
+            </div>
+          </header>
+
+          <div
+            class="my-2 grid min-h-[260px] flex-1 place-items-center sm:min-h-[285px]"
+            role="img"
+            aria-label="A clipboard with a checklist, pencil, question mark, and glowing lightbulb"
+          >
+            <svg
+              class="block h-auto w-full max-w-[360px]"
+              viewBox="0 0 380 260"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <defs>
+                <linearGradient
+                  id="paper"
+                  x1="112"
+                  y1="43"
+                  x2="249"
+                  y2="221"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#FFFDF8" />
+                  <stop offset="1" stop-color="#F1E8D9" />
+                </linearGradient>
+                <linearGradient
+                  id="bulb"
+                  x1="284"
+                  y1="54"
+                  x2="324"
+                  y2="115"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#FFE89D" />
+                  <stop offset="1" stop-color="#F6B74D" />
+                </linearGradient>
+                <filter
+                  id="artShadow"
+                  x="60"
+                  y="30"
+                  width="250"
+                  height="230"
+                  color-interpolation-filters="sRGB"
+                  filterUnits="userSpaceOnUse"
+                >
+                  <feGaussianBlur stdDeviation="8" />
+                </filter>
+              </defs>
+
+              <circle cx="185" cy="133" r="105" fill="#FFF6E8" />
+              <circle cx="73" cy="62" r="5" fill="#E8A849" opacity=".65" />
+              <circle cx="293" cy="183" r="4" fill="#4B9381" opacity=".7" />
+              <path
+                d="M75 192c40 10 177 15 233-3"
+                stroke="#C7D8CA"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-dasharray="2 10"
+              />
+              <ellipse
+                cx="183"
+                cy="216"
+                rx="83"
+                ry="12"
+                fill="#334A49"
+                opacity=".14"
+                filter="url(#artShadow)"
+              />
+
+              <g transform="rotate(-5 174 132)">
+                <path
+                  d="M104 47a9 9 0 0 1 9-9h114a9 9 0 0 1 9 9v159H104V47Z"
+                  fill="#D8AD76"
+                />
+                <path
+                  d="M112 50a7 7 0 0 1 7-7h102a7 7 0 0 1 7 7v147H112V50Z"
+                  fill="url(#paper)"
+                  stroke="#E9DDC9"
+                  stroke-width="2"
+                />
+                <path
+                  d="M148 42a12 12 0 0 1 12-12h25a12 12 0 0 1 12 12v13h-49V42Z"
+                  fill="#E5AA60"
+                />
+                <path d="M157 39h31v9h-31z" rx="4" fill="#FFF2D8" />
+                <path
+                  d="m133 87 6 6 11-13"
+                  stroke="#5C9D77"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M161 88h42"
+                  stroke="#A6B5AC"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="m133 120 6 6 11-13"
+                  stroke="#5C9D77"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M161 121h42"
+                  stroke="#A6B5AC"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="132"
+                  y="145"
+                  width="19"
+                  height="19"
+                  rx="5"
+                  fill="#FCE4B9"
+                />
+                <path
+                  d="M138 154h7"
+                  stroke="#E29B46"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M161 155h42"
+                  stroke="#A6B5AC"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M133 183h69"
+                  stroke="#DFD6C8"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </g>
+
+              <g transform="rotate(23 251 151)">
+                <path
+                  d="m251 103 12 10-25 91-11 12-2-17 26-96Z"
+                  fill="#E57A5C"
+                />
+                <path d="m251 103 12 10 5-17-12-10-5 17Z" fill="#F4C86F" />
+                <path d="m226 216 1-18 11 3-12 15Z" fill="#59646A" />
+                <path d="m256 96 3-10 12 10-3 10-12-10Z" fill="#D38D49" />
+                <path d="m240 204-12-4" stroke="#FFF0D0" stroke-width="2" />
+              </g>
+
+              <g>
+                <path
+                  d="M287 61c0-17 13-30 30-30s30 13 30 30c0 11-5 18-12 27-5 6-7 10-7 16h-23c0-6-2-10-7-16-7-9-11-16-11-27Z"
+                  fill="url(#bulb)"
+                  stroke="#E4A54A"
+                  stroke-width="3"
+                />
+                <path
+                  d="M305 107h24m-21 8h18m-14 8h10"
+                  stroke="#B67B3C"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M317 16v-9m-37 19-7-7m81 7 7-7m-58 88-7 5m44-5 7 5"
+                  stroke="#E9AE4D"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M305 60c0-7 5-12 12-12"
+                  stroke="#FFF9D9"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                />
+              </g>
+
+              <g transform="rotate(8 87 121)">
+                <circle cx="87" cy="121" r="22" fill="#4D8C88" />
+                <text
+                  x="87"
+                  y="132"
+                  text-anchor="middle"
+                  font-family="Georgia, serif"
+                  font-size="34"
+                  font-weight="700"
+                  fill="#FFF9EB"
+                >
+                  ?
+                </text>
+              </g>
+            </svg>
+          </div>
+
+          <button
+            type="button"
+            class="mt-auto flex min-h-[52px] w-full items-center justify-center gap-3 rounded-[14px] bg-[#e18a36] text-base font-bold text-white shadow-[0_5px_12px_rgba(48,63,49,0.14)] transition hover:-translate-y-0.5 hover:brightness-105 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1762a0]"
+            id="startQuizBtn"
+          >
+            Start Quiz
+            <span class="text-xl font-medium" aria-hidden="true">→</span>
+          </button>
+        </article>
+      </section>
+
+      <footer class="mt-7 text-center">
+        <a
+          class="sm:text-lg font-semibold text-[#73847f] hover:text-[#1762a0] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1762a0] no-underline"
+          href="index.html"
+          >← Back to home</a
+        >
+      </footer>
+    </main>
+
+    <script src="choose.js" defer></script>
+  </body>
+</html>

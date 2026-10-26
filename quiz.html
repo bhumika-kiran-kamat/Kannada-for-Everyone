@@ -1,0 +1,260 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Practice Kannada with a friendly, bite-sized quiz."
+    />
+    <title>Quick Quiz | Kannada for Everyone</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body
+    class="relative min-h-screen overflow-x-hidden bg-[radial-gradient(ellipse_at_12%_10%,rgba(255,196,111,0.28),transparent_34%),radial-gradient(ellipse_at_91%_85%,rgba(255,212,119,0.28),transparent_35%),radial-gradient(ellipse_at_82%_4%,rgba(255,231,179,0.6),transparent_30%),linear-gradient(135deg,#fffaf1_0%,#fff8eb_48%,#fffaf3_100%)] before:fixed before:inset-0 before:z-0 before:pointer-events-none before:bg-[radial-gradient(rgba(190,134,62,0.13)_0.7px,transparent_0.7px)] before:bg-[length:20px_20px] before:opacity-[0.32] before:content-['']"
+  >
+    <div
+      class="fixed inset-0 z-0 overflow-hidden text-[#bc864a] pointer-events-none [&_svg]:h-full [&_svg]:w-full"
+      aria-hidden="true"
+    >
+      <svg
+        class="h-full w-full"
+        viewBox="0 0 1440 900"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <g
+            class="stroke-[2.2] opacity-[0.19] max-[600px]:opacity-[0.12]"
+            transform="translate(74 208) rotate(-9)"
+          >
+            <path d="M4 13c19-8 37-7 53 3v53C41 59 23 58 4 66V13Z" />
+            <path d="M57 16c17-10 35-11 54-3v53c-19-8-37-7-54 3V16Z" />
+            <path
+              d="M57 16v53M14 28c12-4 23-3 33 2M14 40c12-4 23-3 33 2M68 28c12-4 23-3 33-2M68 40c12-4 23-3 33-2"
+            />
+          </g>
+          <g
+            class="stroke-[2.2] opacity-[0.19] max-[600px]:opacity-[0.12]"
+            transform="translate(1260 190) rotate(22)"
+          >
+            <path d="m13 7 17-5 38 99-17 6L13 7Z" />
+            <path d="m13 7 17-5 5 13-17 6M51 107l17-6-5 22-12-16Z" />
+          </g>
+          <g
+            class="stroke-[2.2] opacity-[0.19] max-[600px]:opacity-[0.12] [&_text]:fill-current [&_text]:stroke-none [&_text]:font-['Noto_Sans_Kannada','Nirmala_UI',sans-serif] [&_text]:text-[43px] [&_text]:font-semibold [&_text]:opacity-[0.8]"
+            transform="translate(1210 594)"
+          >
+            <path
+              d="M8 8h126a12 12 0 0 1 12 12v66a12 12 0 0 1-12 12H75l-28 24V98H8A12 12 0 0 1-4 86V20A12 12 0 0 1 8 8Z"
+            />
+            <text x="70" y="69" text-anchor="middle">ಅ</text>
+          </g>
+          <g
+            class="stroke-[2.2] opacity-[0.19] max-[600px]:opacity-[0.12] [&_text]:fill-current [&_text]:stroke-none [&_text]:font-['Noto_Sans_Kannada','Nirmala_UI',sans-serif] [&_text]:text-[43px] [&_text]:font-semibold [&_text]:opacity-[0.8]"
+            transform="translate(111 625) scale(.72)"
+          >
+            <path
+              d="M8 8h126a12 12 0 0 1 12 12v66a12 12 0 0 1-12 12H75l-28 24V98H8A12 12 0 0 1-4 86V20A12 12 0 0 1 8 8Z"
+            />
+            <text x="70" y="69" text-anchor="middle">ಕ</text>
+          </g>
+        </g>
+        <g class="opacity-[0.28]" fill="currentColor">
+          <path d="m1150 133 5 15 15 5-15 5-5 15-5-15-15-5 15-5 5-15Z" />
+          <path d="m250 490 4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z" />
+          <path d="m1351 430 3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9Z" />
+          <circle cx="334" cy="253" r="3" />
+          <circle cx="1090" cy="740" r="3" />
+          <text
+            x="1300"
+            y="360"
+            class="font-['Avenir_Next',Avenir,sans-serif] text-[58px] font-extrabold opacity-[0.58]"
+          >
+            ?
+          </text>
+          <text
+            x="93"
+            y="470"
+            class="font-['Avenir_Next',Avenir,sans-serif] text-[58px] font-extrabold opacity-[0.58]"
+          >
+            ?
+          </text>
+        </g>
+      </svg>
+    </div>
+
+    <main
+      class="relative z-[1] mx-auto min-h-screen w-[min(100%-64px,1120px)] py-[30px] pb-6 max-[600px]:w-[min(100%-32px,440px)] max-[600px]:pt-5"
+    >
+      <header
+        class="flex min-h-[42px] items-center justify-between gap-3 max-[420px]:flex-col max-[420px]:items-start"
+      >
+        <a
+          class="inline-flex items-center gap-[9px] text-[0.9rem] font-[650] text-[#61716e] no-underline transition-[color,transform] duration-[160ms] hover:-translate-x-0.5 hover:text-[#ba7130] focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-[#1762a0]"
+          href="choose.html"
+        >
+          <span class="text-[1.2rem]" aria-hidden="true">←</span>
+          <span>Back to choices</span>
+        </a>
+        <a
+          class="inline-flex items-center gap-[9px] text-[clamp(0.75rem,3.5vw,0.9rem)] font-[650] tracking-[-0.025em] text-[#61716e] no-underline transition-[color,transform] duration-[160ms] hover:-translate-x-0.5 hover:text-[#ba7130] focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-[#1762a0]"
+          href="index.html"
+          >Kannada for everyone</a
+        >
+      </header>
+
+      <section
+        class="mx-auto mt-[clamp(44px,8vh,82px)] w-full max-w-[650px] max-[600px]:mt-[49px]"
+        aria-labelledby="quiz-title"
+      >
+        <div class="mb-[29px] text-center max-[600px]:mb-[23px]">
+          <span
+            class="inline-flex items-center gap-2 text-[0.7rem] font-extrabold tracking-[0.17em] text-[#c17a36]"
+            ><span class="text-[0.94rem] text-[#e3a846]" aria-hidden="true"
+              >✦</span
+            >
+            YOUR DAILY LANGUAGE BOOST</span
+          >
+          <h1
+            id="quiz-title"
+            class="mb-[9px] mt-[13px] text-[clamp(1.8rem,4.4vw,2.75rem)] font-extrabold leading-[1.12] tracking-[-0.055em] text-[#23485c]"
+          >
+            A little practice goes a long way.
+          </h1>
+          <p
+            class="m-0 text-base text-[#70807e] max-[600px]:mx-auto max-[600px]:max-w-[300px] max-[600px]:text-[0.92rem] max-[600px]:leading-[1.5]"
+          >
+            Take a breath, trust what you know, and have fun with it.
+          </p>
+        </div>
+
+        <form
+          class="min-w-0 rounded-[25px] border border-[rgba(255,255,255,0.96)] bg-[rgba(255,255,255,0.88)] p-[clamp(16px,5vw,38px)] shadow-[0_22px_60px_rgba(111,90,60,0.1),0_3px_12px_rgba(90,78,58,0.045)] backdrop-blur-lg max-[600px]:rounded-[20px]"
+        >
+          <div
+            class="flex items-center justify-between gap-3 max-[420px]:flex-wrap"
+          >
+            <span
+              class="text-[0.72rem] font-extrabold tracking-[0.11em] text-[#87928c]"
+              >QUESTION
+              <strong class="ml-[5px] text-[#335b61]" id="num"></strong>
+              <span class="font-semibold text-[#a1aaa3]">/50</span></span
+            >
+            <span
+              class="inline-flex items-center gap-1.5 rounded-full bg-[#fff5e5] px-[11px] py-[7px] text-[0.72rem] font-bold text-[#a36c31]"
+              ><span class="text-[#e2a347]" aria-hidden="true">✳</span> Everyday
+              words</span
+            >
+          </div>
+
+          <fieldset class="mt-8 border-0 p-0">
+            <legend
+              class="block w-full break-words text-center text-[clamp(1.2rem,5vw,1.9rem)] font-extrabold leading-snug tracking-[-0.035em] text-[#27485b] Noto Sans Kannada"
+              id="qtnText"
+            ></legend>
+            <p class="mt-2 text-center text-sm text-[#84908e]">
+              Pick the best answer
+            </p>
+            <div id="choiceList">
+              <div
+                class="mt-6 grid grid-cols-1 gap-[11px] min-[601px]:grid-cols-2 max-[600px]:gap-[9px]"
+              >
+                <label
+                  class="group flex min-h-[57px] min-w-0 cursor-pointer items-center gap-3 rounded-[13px] border border-[#eeeae2] bg-[#fffefa] px-[14px] py-[10px] text-[0.93rem] font-[650] text-[#485f68] shadow-sm transition-[border-color,background,transform,box-shadow] duration-[160ms] hover:-translate-y-px hover:border-[#edc58f] hover:shadow-[0_5px_14px_rgba(143,105,57,0.07)] has-[:checked]:border-[#dfa452] has-[:checked]:bg-[#fff8e9] has-[:checked]:shadow-[0_0_0_2px_rgba(223,164,82,0.12)] has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-[3px] has-[:focus-visible]:outline-[#1762a0] max-[600px]:min-h-[52px]"
+                >
+                  <input
+                    type="radio"
+                    name="quizAnswer"
+                    class="sr-only option"
+                    value="A"
+                  />
+                  <span
+                    class="grid h-[30px] w-[30px] shrink-0 place-items-center rounded-[9px] bg-[#f4f2ec] text-[0.76rem] font-extrabold text-[#7d8985] group-has-[:checked]:bg-[#f4dfb9] group-has-[:checked]:text-[#915d28]"
+                    >A</span
+                  >
+                  <span id="A" class="min-w-0 break-words"></span>
+                </label>
+
+                <label
+                  class="group flex min-h-[57px] min-w-0 cursor-pointer items-center gap-3 rounded-[13px] border border-[#eeeae2] bg-[#fffefa] px-[14px] py-[10px] text-[0.93rem] font-[650] text-[#485f68] shadow-sm transition-[border-color,background,transform,box-shadow] duration-[160ms] hover:-translate-y-px hover:border-[#edc58f] hover:shadow-[0_5px_14px_rgba(143,105,57,0.07)] has-[:checked]:border-[#dfa452] has-[:checked]:bg-[#fff8e9] has-[:checked]:shadow-[0_0_0_2px_rgba(223,164,82,0.12)] has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-[3px] has-[:focus-visible]:outline-[#1762a0] max-[600px]:min-h-[52px]"
+                >
+                  <input
+                    type="radio"
+                    name="quizAnswer"
+                    class="sr-only option"
+                    value="B"
+                  />
+                  <span
+                    class="grid h-[30px] w-[30px] shrink-0 place-items-center rounded-[9px] bg-[#f4f2ec] text-[0.76rem] font-extrabold text-[#7d8985] group-has-[:checked]:bg-[#f4dfb9] group-has-[:checked]:text-[#915d28]"
+                    >B</span
+                  >
+                  <span id="B" class="min-w-0 break-words"></span>
+                </label>
+
+                <label
+                  class="group flex min-h-[57px] min-w-0 cursor-pointer items-center gap-3 rounded-[13px] border border-[#eeeae2] bg-[#fffefa] px-[14px] py-[10px] text-[0.93rem] font-[650] text-[#485f68] shadow-sm transition-[border-color,background,transform,box-shadow] duration-[160ms] hover:-translate-y-px hover:border-[#edc58f] hover:shadow-[0_5px_14px_rgba(143,105,57,0.07)] has-[:checked]:border-[#dfa452] has-[:checked]:bg-[#fff8e9] has-[:checked]:shadow-[0_0_0_2px_rgba(223,164,82,0.12)] has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-[3px] has-[:focus-visible]:outline-[#1762a0] max-[600px]:min-h-[52px]"
+                >
+                  <input
+                    type="radio"
+                    name="quizAnswer"
+                    class="sr-only option"
+                    value="C"
+                  />
+                  <span
+                    class="grid h-[30px] w-[30px] shrink-0 place-items-center rounded-[9px] bg-[#f4f2ec] text-[0.76rem] font-extrabold text-[#7d8985] group-has-[:checked]:bg-[#f4dfb9] group-has-[:checked]:text-[#915d28]"
+                    >C</span
+                  >
+                  <span id="C" class="min-w-0 break-words"></span>
+                </label>
+
+                <label
+                  class="group flex min-h-[57px] min-w-0 cursor-pointer items-center gap-3 rounded-[13px] border border-[#eeeae2] bg-[#fffefa] px-[14px] py-[10px] text-[0.93rem] font-[650] text-[#485f68] shadow-sm transition-[border-color,background,transform,box-shadow] duration-[160ms] hover:-translate-y-px hover:border-[#edc58f] hover:shadow-[0_5px_14px_rgba(143,105,57,0.07)] has-[:checked]:border-[#dfa452] has-[:checked]:bg-[#fff8e9] has-[:checked]:shadow-[0_0_0_2px_rgba(223,164,82,0.12)] has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-[3px] has-[:focus-visible]:outline-[#1762a0] max-[600px]:min-h-[52px]"
+                >
+                  <input
+                    type="radio"
+                    name="quizAnswer"
+                    class="sr-only option"
+                    value="D"
+                  />
+                  <span
+                    class="grid h-[30px] w-[30px] shrink-0 place-items-center rounded-[9px] bg-[#f4f2ec] text-[0.76rem] font-extrabold text-[#7d8985] group-has-[:checked]:bg-[#f4dfb9] group-has-[:checked]:text-[#915d28]"
+                    >D</span
+                  >
+                  <span id="D" class="min-w-0 break-words"></span>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div
+            class="mt-[25px] flex items-center justify-between gap-3 border-t border-[#f0ede7] pt-5 max-[600px]:mt-5"
+            id="nextQtnBtn"
+          >
+            
+            <button
+              class="flex min-h-[47px] items-center justify-center gap-3 rounded-xl bg-[#df8a3e] px-[19px] text-[0.88rem] font-[750] text-white shadow-[0_5px_12px_rgba(172,102,43,0.18)] transition-[transform,background,box-shadow] duration-[160ms] hover:-translate-y-0.5 hover:bg-[#cf7832] hover:shadow-[0_8px_16px_rgba(172,102,43,0.22)] focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-[#1762a0] max-[600px]:min-h-11 max-[600px]:px-[14px] max-[600px]:text-[0.82rem]"
+              type="button"
+            >
+              Next question
+              <span class="text-[1.1rem]" aria-hidden="true">→</span>
+            </button>
+          </div>
+        </form>
+
+        
+        <p class="mb-0 mt-[22px] text-center text-[0.8rem] text-[#a18c6e]">
+          <span class="mr-1 text-[#d9a24d]" aria-hidden="true">✦</span> Every
+          new word is a little win.
+        </p>
+      </section>
+    </main>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

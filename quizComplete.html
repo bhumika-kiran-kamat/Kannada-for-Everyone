@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="See your Kannada quiz results and choose what to do next."
+    />
+    <title>Quiz Complete | Kannada for Everyone</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body
+    class="relative isolate flex min-h-screen overflow-x-hidden bg-[#fffaf1] font-['Avenir_Next',Avenir,'Segoe_UI',sans-serif] text-[#23485c] antialiased"
+  >
+    <div
+      class="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
+      aria-hidden="true"
+    >
+      <div
+        class="absolute -left-24 -top-24 size-80 rounded-full bg-[#f6d9ae]/45 blur-3xl"
+      ></div>
+      <div
+        class="absolute -bottom-28 -right-16 size-96 rounded-full bg-[#b8d8c8]/45 blur-3xl"
+      ></div>
+      <span
+        class="absolute left-[12%] top-[18%] size-3 rotate-12 rounded-sm bg-[#e9954b]/70"
+      ></span>
+      <span
+        class="absolute left-[22%] top-[68%] size-2.5 rounded-full bg-[#4d9b89]/65"
+      ></span>
+      <span
+        class="absolute right-[16%] top-[22%] size-3 rotate-45 rounded-sm bg-[#e7b95c]/75"
+      ></span>
+      <span
+        class="absolute right-[23%] top-[72%] size-2 rounded-full bg-[#e88770]/70"
+      ></span>
+      <span
+        class="absolute left-[35%] top-[12%] size-2 rotate-12 rounded-full bg-[#8aaa76]/70"
+      ></span>
+      <span
+        class="absolute right-[36%] top-[85%] size-3 rotate-45 rounded-sm bg-[#e9954b]/60"
+      ></span>
+      <svg
+        class="absolute left-[7%] top-[43%] h-24 w-24 text-[#bb8952]/20 sm:h-32 sm:w-32"
+        viewBox="0 0 140 140"
+        fill="none"
+      >
+        <path
+          d="M18 20h94a10 10 0 0 1 10 10v53a10 10 0 0 1-10 10H68l-22 19V93H18A10 10 0 0 1 8 83V30a10 10 0 0 1 10-10Z"
+          stroke="currentColor"
+          stroke-width="3"
+        />
+        <path
+          d="M42 46h57M42 62h42"
+          stroke="currentColor"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+      </svg>
+    </div>
+
+    <main
+      class="mx-auto flex min-h-screen w-full max-w-[1080px] flex-col px-4 py-5 sm:px-6 sm:py-8 lg:px-10"
+    >
+      <header class="flex items-center justify-between gap-4">
+        <a
+          class="inline-flex items-center gap-2 text-sm font-bold tracking-[-0.02em] text-[#42645f] no-underline transition-colors hover:text-[#d77d35] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1762a0] sm:text-base"
+          href="index.html"
+        >
+          <span
+            class="grid size-9 place-items-center rounded-xl bg-white/80 text-[#d9823b] shadow-sm"
+            aria-hidden="true"
+          >
+            <svg class="size-5" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M8 7h8M8 11h6"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span>Kannada for Everyone</span>
+        </a>
+        <span
+          class="rounded-full border border-[#e5e9dc] bg-white/75 px-3 py-1.5 text-xs font-bold text-[#72817a] sm:px-4 sm:text-sm"
+          >QUIZ RESULTS</span
+        >
+      </header>
+
+      <section
+        class="mx-auto flex w-full max-w-[700px] flex-1 flex-col justify-center py-8 sm:py-12"
+        aria-labelledby="completion-title"
+      >
+        <article
+          class="relative overflow-hidden rounded-[28px] border border-white/90 bg-white/85 px-5 py-8 text-center shadow-[0_24px_70px_rgba(92,90,66,0.12),0_4px_14px_rgba(92,90,66,0.05)] backdrop-blur-xl sm:rounded-[36px] sm:px-12 sm:py-12"
+        >
+          <span
+            class="absolute left-[12%] top-[18%] text-2xl text-[#e7ad4b]/75"
+            aria-hidden="true"
+            >✦</span
+          >
+          <span
+            class="absolute right-[12%] top-[21%] text-xl text-[#4d9b89]/70"
+            aria-hidden="true"
+            >✧</span
+          >
+          <span
+            class="absolute bottom-[23%] left-[9%] text-xl text-[#e88770]/70"
+            aria-hidden="true"
+            >✳</span
+          >
+          <span
+            class="absolute bottom-[17%] right-[10%] text-2xl text-[#e7ad4b]/75"
+            aria-hidden="true"
+            >✦</span
+          >
+
+          <div
+            class="mx-auto mb-5 grid size-24 place-items-center rounded-[28px] bg-gradient-to-br from-[#fff1d8] to-[#fbe3bd] text-5xl shadow-[0_10px_28px_rgba(180,126,61,0.13)] sm:mb-6 sm:size-28 sm:rounded-[32px] sm:text-6xl"
+            aria-hidden="true"
+          >
+            🎉
+          </div>
+          <p
+            class="mb-2 text-xs font-extrabold tracking-[0.2em] text-[#c17a36] sm:text-sm"
+          >
+            QUIZ COMPLETE
+          </p>
+          <h1
+            id="completion-title"
+            class="m-0 text-[clamp(1.9rem,7vw,3rem)] font-extrabold leading-tight tracking-[-0.05em] text-[#23485c]"
+          >
+            Congratulations!
+          </h1>
+          <p
+            class="mx-auto mb-0 mt-3 max-w-[490px] text-base leading-relaxed text-[#687b7b] sm:text-lg"
+          >
+            You have successfully completed the quiz.
+          </p>
+
+          <dl
+            class="mx-auto mt-7 grid max-w-[470px] grid-cols-1 gap-3 text-left sm:mt-8 sm:grid-cols-2"
+          >
+            <div
+              class="rounded-2xl border border-[#e6eee7] bg-[#f5faf5]/90 p-4 sm:p-5"
+            >
+              <dt
+                class="text-xs font-extrabold tracking-[0.12em] text-[#72817b] sm:text-sm"
+              >
+                CORRECT ANSWERS
+              </dt>
+              <dd
+                class="mb-0 mt-2 text-2xl font-extrabold text-[#4d8c70]"
+                id="correctAnswer"
+              ></dd>
+            </div>
+            <div
+              class="rounded-2xl border border-[#f1e8dc] bg-[#fff9f0]/90 p-4 sm:p-5"
+            >
+              <dt
+                class="text-xs font-extrabold tracking-[0.12em] text-[#8b8174] sm:text-sm"
+              >
+                WRONG ANSWERS
+              </dt>
+              <dd
+                class="mb-0 mt-2 text-2xl font-extrabold text-[#d17a55]"
+                id="wrongAnswer"
+              ></dd>
+            </div>
+            <div
+              class="rounded-2xl border border-[#f0e5d4] bg-gradient-to-r from-[#fff5e5] to-[#fffaf1] p-4 sm:col-span-2 sm:p-5"
+            >
+              <dt
+                class="text-xs font-extrabold tracking-[0.12em] text-[#8b7558] sm:text-sm"
+              >
+                FINAL SCORE
+              </dt>
+              <dd
+                class="mb-0 mt-2 text-3xl font-extrabold tracking-[-0.04em] text-[#315e62]"
+                id="finalScore"
+              ></dd>
+            </div>
+          </dl>
+
+          <nav
+            class="mx-auto mt-7 grid w-full max-w-[470px] gap-3 sm:mt-8 sm:grid-cols-2"
+            aria-label="Choose what to do next"
+          >
+            <a
+              href="quiz.html"
+              class="inline-flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-[#df8a3e] px-5 text-sm font-bold text-white no-underline shadow-[0_6px_16px_rgba(172,102,43,0.2)] transition-[transform,background-color,box-shadow] duration-150 hover:-translate-y-0.5 hover:bg-[#cf7832] hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-[#1762a0] active:translate-y-0 sm:text-base"
+            >
+              <span aria-hidden="true">🔄</span>
+              Restart Quiz
+            </a>
+            <a
+              href="choose.html"
+              class="inline-flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-[#e3e9df] bg-white/90 px-5 text-sm font-bold text-[#426b63] no-underline shadow-sm transition-[transform,background-color,box-shadow] duration-150 hover:-translate-y-0.5 hover:bg-[#f3f8f1] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-[#1762a0] active:translate-y-0 sm:text-base"
+            >
+              <span aria-hidden="true">📝</span>
+              Back to Choices
+            </a>
+          </nav>
+        </article>
+      </section>
+
+      <footer class="pb-2 text-center text-xs text-[#95a098] sm:text-sm">
+        Every new word is a little win
+        <span class="text-[#d99b4d]" aria-hidden="true">✦</span>
+      </footer>
+    </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const finalscore = document.getElementById("finalScore");
+        const correctAnswer = document.getElementById("correctAnswer");
+        const wrongAnswer = document.getElementById("wrongAnswer");
+
+        const score = localStorage.getItem("score");
+        const correctAns = localStorage.getItem("correctAns");
+        const wrongAns = localStorage.getItem("wrongAns");
+
+        finalscore.textContent = `${score}/30`;
+        correctAnswer.textContent = `${correctAns}`;
+        wrongAnswer.textContent = `${wrongAns}`;
+      });
+    </script>
+  </body>
+</html>
