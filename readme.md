@@ -5,7 +5,7 @@ A simple, situation-based web app that helps beginners learn everyday Kannada th
 
 ## 🌐 Live Website
 Check out the live version here:  
-👉 [Visit Website](YOUR_LIVE_WEBSITE_LINK)
+👉 [Visit Website](https://bhumika-kiran-kamat.github.io/Kannada-for-Everyone/)
 
 ## ✨ Introduction
 
